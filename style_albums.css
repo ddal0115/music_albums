@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-color: #1d232f;
+  margin-top: 250px;
+  text-align: center;
+  color: white;
+  font-family: "Noto Serif KR Black";
+}
+
+.album_image {
+  align: center;
+  margin-bottom: 100px;
+}
+
+.album_image img {
+  width: 300px;
+  height: 300px;
+}
+
+.artist {
+  font-size: 17px;
+  margin-right: 50px;
+  width: 100%;
+}
+
+.artist::after {
+  margin-left: 10px;
+   content: "•";
+   color: white;
+}
+
+.title {
+  font-size: 17px;
+}
+
+.title::before {
+  margin-right: 10px;
+   content: "•";
+   color: white;
+}
+
+
+.line {
+  margin-left: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 0;
+  height: 100px;
+  border-left: 0.5px solid white;
+}
+
+.lyrics {
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 200px;
+  word-spacing: 4px;
+  line-height: 2.4;
+}

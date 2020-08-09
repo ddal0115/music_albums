@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: #e2dcd0;
+}
+
+.title {
+  position: fixed;
+  margin-left: 400px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px 300px 300px;
+  margin-left: 530px;
+  margin-right: 350px;
+  margin-top: 315px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px 300px 300px;
+}
+
+.container img {
+  width: 300px;
+  height: 300px;
+}
+
+.container img:hover{
+  opacity: 0.5;
+}
